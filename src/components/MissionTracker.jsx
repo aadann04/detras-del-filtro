@@ -294,7 +294,16 @@ const MissionTracker = () => {
                 {Object.keys(completed).length === missions.length && missions.length > 0 && (
                     <div className="mt-4 text-center">
                         <span className="text-xs font-bold text-yellow-400 animate-pulse">¡TODAS LAS MISIONES COMPLETADAS!</span>
-                        <p className="text-xs text-gray-300 mt-2 font-medium">Vuelve mañana para una nueva misión</p>
+
+                        <div className="mt-3 space-y-2">
+                            {missions.map(m => m.insight && (
+                                <p key={m.id} className="text-[11px] text-gray-300 italic leading-relaxed animate-in fade-in slide-in-from-bottom-2 duration-700">
+                                    "{m.insight}"
+                                </p>
+                            ))}
+                        </div>
+
+                        <p className="text-xs text-gray-300 mt-3 font-medium border-t border-white/10 pt-2">Vuelve mañana para una nueva misión</p>
                     </div>
                 )}
             </div>

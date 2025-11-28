@@ -11,7 +11,8 @@ export const MISSIONS_POOL = [
             theta: 45, // Grados
             phi: 60,   // Grados (0 es arriba)
         },
-        tolerance: 25 // Grados de margen
+        tolerance: 25, // Grados de margen
+        insight: "La luz lateral esculpe volumen donde antes se veía plano, creando una tridimensionalidad que nuestros ojos encuentran fascinante."
     },
     {
         id: '3d_silhouette',
@@ -23,7 +24,8 @@ export const MISSIONS_POOL = [
             theta: 180,
             phi: 90,
         },
-        tolerance: 35
+        tolerance: 35,
+        insight: "Al ocultar los rasgos y dejar solo el contorno, borras la identidad para convertir el cuerpo en una forma gráfica pura."
     },
     {
         id: '3d_split',
@@ -35,7 +37,8 @@ export const MISSIONS_POOL = [
             theta: 90,
             phi: 90,
         },
-        tolerance: 15
+        tolerance: 15,
+        insight: "Dividir el rostro tan radicalmente crea una dualidad dramática que rara vez existe en la iluminación natural."
     },
     {
         id: '3d_godfather',
@@ -46,7 +49,8 @@ export const MISSIONS_POOL = [
         target: {
             phi: 15,
         },
-        tolerance: 20
+        tolerance: 20,
+        insight: "La luz desde arriba oculta la mirada y endurece las facciones, fabricando una máscara de poder o amenaza sobre el rostro real."
     },
     {
         id: '3d_horror',
@@ -57,7 +61,8 @@ export const MISSIONS_POOL = [
         target: {
             phi: 85,
         },
-        tolerance: 15
+        tolerance: 15,
+        insight: "Invertir las sombras naturales (luz desde abajo) engaña a nuestro cerebro para que perciba el rostro como algo antinatural o siniestro."
     },
 
     // --- Misiones 2D (Edición) ---
@@ -71,7 +76,8 @@ export const MISSIONS_POOL = [
             vibrance: -100,
             contrast: 50
         },
-        tolerance: { vibrance: 15, contrast: 25 }
+        tolerance: { vibrance: 15, contrast: 25 },
+        insight: "El alto contraste elimina los matices de la realidad, imponiendo una atmósfera cruda que no existía en la foto original."
     },
     {
         id: '2d_ethereal',
@@ -83,7 +89,8 @@ export const MISSIONS_POOL = [
             clarity: -50,
             exposure: 20
         },
-        tolerance: { clarity: 25, exposure: 20 }
+        tolerance: { clarity: 25, exposure: 20 },
+        insight: "Suavizar la claridad borra las texturas 'imperfectas' de la piel, vendiéndonos una pureza onírica que es digital, no real."
     },
     {
         id: '2d_warmth',
@@ -95,7 +102,8 @@ export const MISSIONS_POOL = [
             temperature: 60,
             shadows: 20
         },
-        tolerance: { temperature: 25, shadows: 25 }
+        tolerance: { temperature: 25, shadows: 25 },
+        insight: "Cambiar la temperatura manipula la emoción de la escena, haciéndonos sentir una calidez nostálgica fabricada."
     },
     {
         id: '2d_focus',
@@ -106,7 +114,8 @@ export const MISSIONS_POOL = [
         target: {
             vignette: 70
         },
-        tolerance: { vignette: 25 }
+        tolerance: { vignette: 25 },
+        insight: "Oscurecer los bordes fuerza al espectador a mirar solo lo que tú quieres, eliminando el contexto que podría cambiar el significado."
     },
     {
         id: '2d_cyber',
@@ -118,7 +127,8 @@ export const MISSIONS_POOL = [
             temperature: -50,
             contrast: 40
         },
-        tolerance: { temperature: 25, contrast: 25 }
+        tolerance: { temperature: 25, contrast: 25 },
+        insight: "Los tonos fríos y artificiales deshumanizan la imagen, convirtiendo a la persona en un personaje de ficción digital."
     }
 ];
 
