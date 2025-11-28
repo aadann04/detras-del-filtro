@@ -52,12 +52,12 @@ export const MISSIONS_POOL = [
         id: '3d_horror',
         module: '3d',
         title: 'Terror Nocturno',
-        description: 'Una iluminación antinatural que viene desde abajo.',
-        hint: 'Baja la luz por debajo del nivel de la cara.',
+        description: 'Una iluminación dramática casi a ras de suelo.',
+        hint: 'Baja la luz hasta el nivel del suelo (lo más bajo posible).',
         target: {
-            phi: 140,
+            phi: 85,
         },
-        tolerance: 25
+        tolerance: 15
     },
 
     // --- Misiones 2D (Edición) ---
